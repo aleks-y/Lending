@@ -3,15 +3,18 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Проект Lending</title>
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
     <header class="header">
-      <nav class="nav-main">
+      <nav class="nav-main nav-main--close">
+        <div class="nav-main__logo">
+          <img src="img/icon_logo.svg" width="158" height="33" alt="Mobileapp" title="Mobileapp">
+        </div>
+        <button class="nav-main__toggler" type="button" name="menu">Menu</button>
         <ul class="nav-main__list">
-          <li class="nav-main__item nav-main__item--logo">
-            <img src="img/icon_logo.svg" width="175" height="37" alt="Mobileapp" title="Mobileapp">
-          </li>
           <li class="nav-main__item">
             <a href="#" class="nav-main__link nav-main__link--active">Home</a>
           </li>
@@ -34,49 +37,87 @@
           <h1 class="download-app__header">Introducing Mobileapp.</h1>
           <p class="download-app__description">Maecenas vitae tellus sapien. Praesent</p>
           <ul class="download-app__features">
-            <li>semper scelerisque tristique a enim</li>
+            <li>Semper scelerisque tristique a enim</li>
             <li>Integer ut mattis nulla, eget vehicula elit </li>
             <li>Praesent rutrum ac nunc et </li>
           </ul>
-          <a href="#" class="btn download-app__link">Download</a>
+          <a href="#" class="btn download-app__link">
+            <span class="download-app__icon">
+              <svg width="36" height="29" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/symbols.svg#icon_cloud"></use>
+              </svg>
+            </span>
+            Download
+          </a>
         </section>
       </div>
     </header>
     <main>
       <section class="features">
         <div class="features__wrapper">
-          <h2 class="features__header">Key features</h2>
+          <div class="section-header">
+            <h2>Key features</h2>
+            <span class="section-header__line" aria-hidden="true">
+              <svg width="83" height="11" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_line"></use>
+              </svg>
+            </span>
+          </div>
           <p class="features__description">Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque neque. In sit amet lectus non lacus sollicitudin cursus a vitae felis. Praesent luctus mi quis nisi interdum eleifend.</p>
           <ul class="features__list">
             <li class="features__item">
-              <span class="featires__icon" aria-hidden="true"></span>
+              <span class="featires__icon" aria-hidden="true">
+                <svg width="36" height="36" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_01"></use>
+                </svg>
+              </span>
               <h3 class="features__title">Amet varius</h3>
-              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
+              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam&nbsp;a&nbsp;iaculis malesuada</p>
             </li>
             <li class="features__item">
-              <span class="featires__icon" aria-hidden="true"></span>
+              <span class="featires__icon" aria-hidden="true">
+                <svg width="36" height="32" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_02"></use>
+                </svg>
+              </span>
               <h3 class="features__title">Amet varius</h3>
-              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
+              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam&nbsp;a&nbsp;iaculis malesuada</p>
             </li>
             <li class="features__item">
-              <span class="featires__icon" aria-hidden="true"></span>
+              <span class="featires__icon" aria-hidden="true">
+                <svg width="36" height="35" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_03"></use>
+                </svg>
+              </span>
               <h3 class="features__title">Amet varius</h3>
-              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
+              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam&nbsp;a&nbsp;iaculis malesuada</p>
             </li>
             <li class="features__item">
-              <span class="featires__icon" aria-hidden="true"></span>
+              <span class="featires__icon" aria-hidden="true">
+                <svg width="30" height="36" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_04"></use>
+                </svg>
+              </span>
               <h3 class="features__title">Amet varius</h3>
-              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
+              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam&nbsp;a&nbsp;iaculis malesuada</p>
             </li>
             <li class="features__item">
-              <span class="featires__icon" aria-hidden="true"></span>
+              <span class="featires__icon" aria-hidden="true">
+                <svg width="36" height="36" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_05"></use>
+                </svg>
+              </span>
               <h3 class="features__title">Amet varius</h3>
-              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
+              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam&nbsp;a&nbsp;iaculis malesuada</p>
             </li>
             <li class="features__item">
-              <span class="featires__icon" aria-hidden="true"></span>
+              <span class="featires__icon" aria-hidden="true">
+                <svg width="36" height="36" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/symbols.svg#icon_06"></use>
+                </svg>
+              </span>
               <h3 class="features__title">Amet varius</h3>
-              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam a iaculis malesuada</p>
+              <p class="features__text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus diam&nbsp;a&nbsp;iaculis malesuada</p>
             </li>
           </ul>
         </div>
@@ -102,5 +143,6 @@
         </div>
       </section>
     </main>
+    <script src="js/script.js" type="text/javascript"></script>
   </body>
 </html>
